@@ -69,8 +69,14 @@ sans-serif;
 /* Start Header Section */
 
 #header-section {
+    position: relative;
     background-color: #FF6000;
     color: #fff;
+}
+
+.right-navbar {
+    position: absolute;
+    right: 0;
 }
 
 .menubar {
@@ -82,10 +88,11 @@ sans-serif;
     color: #fff;
     padding: 15px 10px;
     display: block;
+    font-weight: 600;
 }
 
 .menubar li a:hover {
-    background-color: #393646;
+    background-color: #E7B10A;
     text-decoration: underline;
 }
 
@@ -93,12 +100,12 @@ sans-serif;
     color: #FFA559;
 }
 
-#logo {
+.logo-title {
     font-size: 1.5rem;
     margin: 12px 0;
 }
 
-#logo span {
+.logo-title span {
     color: #FCE22A;
     font-family: 'Alkatra', cursive;
 }
@@ -186,9 +193,9 @@ sans-serif;
 }
 
 .services-card img {
-    width: 200px;
-    height: 200px;
-    margin: 0 40px;
+    width: 100px;
+    height: 100px;
+    margin: 0 100px;
 }
 
 .card-body {
@@ -208,3 +215,27 @@ sans-serif;
 
 
 /* End Services Section */
+
+
+/* Start work model Section */
+
+#work-model-section {}
+
+.top-WM {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.top-WM h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.top-WM p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.4rem;
+}
+
+
+/* End work model Section */
