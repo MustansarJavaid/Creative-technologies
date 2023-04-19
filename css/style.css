@@ -30,6 +30,14 @@ ul li {
 
 /* utility classes */
 
+.ul-styling li {
+    display: block;
+}
+
+.BG-transparent {
+    background-color: transparent !important;
+}
+
 
 /* Google Font */
 
@@ -219,7 +227,20 @@ sans-serif;
 
 /* Start work model Section */
 
-#work-model-section {}
+#work-model-section {
+    background-image: url(../img/background/4907157.jpg);
+    background-repeat: no-repeat;
+    background-position: 40% 50%;
+    /* background-size: cover;*/
+    opacity: 0.5;
+    padding: 7% 5%;
+    box-sizing: border-box;
+    max-width: 100%;
+    /*height: 120vh;*/
+    text-align: center;
+    justify-content: center;
+    align-self: center;
+}
 
 .top-WM {
     text-align: center;
@@ -239,3 +260,124 @@ sans-serif;
 
 
 /* End work model Section */
+
+
+/* Start testimonials Section */
+
+#testimonials-section {
+    /* position: relative;*/
+    text-align: center;
+    height: 130vh;
+    padding: 50px;
+}
+
+.testimonial-content-sec {
+    margin-top: 50px;
+}
+
+.testimonials-card {
+    border: none;
+}
+
+.testimonials-card img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.card-text {
+    font-size: 14.4px;
+    margin: 0 60px;
+}
+
+.testimonials-carousel-btn span {
+    border: 1px solid #fff;
+    background-color: black;
+}
+
+.carousel-inner {
+    overflow: visible;
+}
+
+
+/* End testimonials Section */
+
+
+/* Start About Us Section */
+
+#aboutus-section {
+    background-color: #332C39;
+    height: 60vh;
+    padding: 50px;
+}
+
+.about-title h1 {
+    color: #FCE22A;
+    font-family: 'Alkatra', cursive;
+    margin-bottom: 40px;
+}
+
+.about-title h1 span {
+    color: #fff;
+    line-height: 1.5;
+}
+
+.about-title p {
+    color: #fff;
+}
+
+.about-menubar {
+    color: #fff;
+}
+
+.about-menubar h1 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.about-ul {
+    margin: 0 40px;
+}
+
+.about-ul li {
+    margin: 15px 0;
+}
+
+.about-ul li a {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.about-ul li i {
+    padding-right: 1rem;
+}
+
+.contact-bar {
+    color: #fff;
+}
+
+.contact-bar h1 {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+
+/* End About Us Section */
+
+
+/* Start Footer Section */
+
+#footer-section {
+    background-color: #820000;
+    color: #fff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+#footer-section p {
+    margin-bottom: 0;
+}
+
+
+/* End Footer Section */
