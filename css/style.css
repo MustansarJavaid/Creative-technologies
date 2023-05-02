@@ -118,6 +118,13 @@ sans-serif;
     font-family: 'Alkatra', cursive;
 }
 
+.right-navbar {
+    position: absolute;
+    right: 50px;
+    top: 100px;
+    background-color: antiquewhite;
+    z-index: 1;
+}
 
 /* End Header Section */
 
